@@ -1,0 +1,14 @@
+# see what you've changed
+git status
+
+# add ALL changes you've done to staging area
+git add -A
+
+# add a single file to the staging area...
+git add the/full/file/path
+
+# slap a name on everything in the staging area and call it done
+git commit -m "YOUR MESSAGE HERE"
+
+# copy the newest stuff to GitHub
+git push
